@@ -26,7 +26,8 @@ basic block orders
   bb36 -> bb38;
   bb8 -> bb33;
   
- Machine Level steps:
+  
+IR Level steps:
  1. make build dir in IR Profiling
  2. run cmake.. and make -j2 in build dir
  3. cd .. and cd Profiling
