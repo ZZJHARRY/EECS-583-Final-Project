@@ -6,4 +6,4 @@ We are implementing the paper [Improved Basic Block Reordering](https://ieeexplo
 
 dfs.py - python-implemented script for traversing profiling data output
 
-test.cpp - LLVM IR passs for reordering
+test.cpp - LLVM IR pass for reordering
