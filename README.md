@@ -4,11 +4,6 @@ EECS 583 Final Project (Group 20) - Zijian Zhang, Huiruo Zou, Yunhao Wang, Zhaoy
 
 We are implementing the paper [Improved Basic Block Reordering](https://ieeexplore.ieee.org/abstract/document/9050435?casa_token=1hzPWQlIa8sAAAAA:QzBxIIrX6pAR08cerlU4UsZ45zB-0FfXFRp3nSALw76phNCss6gfAVJCR9dngw_-c9qalDU9lS0) as our final project.
 
-
-dfs.py - python-implemented script for traversing profiling data output
-
-test.cpp - LLVM IR pass for reordering
-
 ## Profiling:
 
 Machine Level Script:
@@ -44,6 +39,11 @@ Reordering_Algorithm.ipynb
 1. The program takes 3 inputs:
    1. **adjacent_matrix** the adjacent matrix provided by getInfo.ipynb to show the branch weights
    2. **BB_size** the 1D array provided by getInfo.ipynb to show each basic block's size
-   3. **entry_point**the index of the entry block 
+   3. **entry_point** the index of the entry block 
+
+
+dfs.py - python-implemented script for traversing profiling data output
+
+test.cpp - LLVM IR pass for reordering
 
 
