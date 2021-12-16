@@ -1,6 +1,6 @@
 # EECS-583-Final-Project
 
-EECS 583 Final Project:
+EECS 583 Final Project (Group 20) - Zijian Zhang, Huiruo Zou, Yunhao Wang, Zhaoyuan Zhang
 
 We are implementing the paper [Improved Basic Block Reordering](https://ieeexplore.ieee.org/abstract/document/9050435?casa_token=1hzPWQlIa8sAAAAA:QzBxIIrX6pAR08cerlU4UsZ45zB-0FfXFRp3nSALw76phNCss6gfAVJCR9dngw_-c9qalDU9lS0) as our final project.
 
