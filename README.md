@@ -1,4 +1,4 @@
-# EECS-583-Final-Project
+# EECS 583 Final Project
 
 EECS 583 Final Project (Group 20) - Zijian Zhang, Huiruo Zou, Yunhao Wang, Zhaoyuan Zhang
 
