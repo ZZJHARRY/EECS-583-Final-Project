@@ -31,4 +31,4 @@ IR Level steps:
  1. make build dir in IR Profiling
  2. run cmake.. and make -j2 in build dir
  3. cd .. and cd Profiling
- 4. ./run.sh src/toy
+ 4. ./run.sh toy
