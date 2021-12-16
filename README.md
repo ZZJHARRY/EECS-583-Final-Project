@@ -41,7 +41,7 @@ Reordering_Algorithm.ipynb
    2. **BB_size** the 1D array provided by getInfo.ipynb to show each basic block's size
    3. **entry_point** the index of the entry block 
 
-
+## Reordering
 dfs.py - python-implemented script for traversing profiling data output
 
 test.cpp - LLVM IR pass for reordering
