@@ -7,3 +7,27 @@ We are implementing the paper [Improved Basic Block Reordering](https://ieeexplo
 dfs.py - python-implemented script for traversing profiling data output
 
 test.cpp - LLVM IR pass for reordering
+
+Profiling:
+
+Machine Level Script:
+1. gcc -g src/toy.c -o toy_exe
+2. python objdump_to_cfg.py --func main toy_exe -o toy_profiling.txt
+
+Example toy_profiling.txt:
+basic block and instructions
+
+  bb8 [label="1152: cmpl   $0x5f5e0fe,-0x10(%rbp)\l1159: jle    11d1 <main+0xa8>\l"];
+
+basic block orders
+
+  bb0 -> bb36;
+  bb36 -> bb8;
+  bb36 -> bb38;
+  bb8 -> bb33;
+  
+ Machine Level steps:
+ 1. make build dir in IR Profiling
+ 2. run cmake.. and make -j2 in build dir
+ 3. cd .. and cd Profiling
+ 4. ./run.sh src/toy
